@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS and editor settings
+.DS_Store
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local archives
+archive/
+
+# Backup files
+*.backup
+*before_new_training.keras
+*before_new_training.joblib
+
+# Experimental models
+ml/models/live_experiment/
